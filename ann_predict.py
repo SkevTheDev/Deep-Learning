@@ -27,3 +27,4 @@ def classification_rate(Y, Y_hat):
 	return np.mean(Y == Y_hat)
 
 print("Score: ", classification_rate(Y, Y_hat))
+
